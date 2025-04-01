@@ -49,10 +49,12 @@ struct ListingItemView: View {
                     Text("4.86")
                 }
                 .foregroundStyle(.black)
+                .font(.footnote)
                 
                 
-            }.font(.footnote)
+            }.font(.subheadline)
                 .padding(.horizontal, 4)
+                .padding(.top, 8)
             
             
         }

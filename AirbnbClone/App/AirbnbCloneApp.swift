@@ -9,14 +9,15 @@ import SwiftUI
 
 @main
 struct AirbnbCloneApp: App {
-    
+    @StateObject var scanData = ScanData()
     init(){
         UIView.appearance().overrideUserInterfaceStyle = .light
     }
     
     var body: some Scene {
         WindowGroup {
-            ExploreView()
+            ContentView()
+                .environmentObject(scanData)
                 
         }
         

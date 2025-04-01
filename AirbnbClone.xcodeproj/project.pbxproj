@@ -10,9 +10,22 @@
 		A0F1C4AF2D77B045000BF15B /* AirbnbClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirbnbClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F9B075DD2D9B576800D1FE53 /* Exceptions for "AirbnbClone" folder in "AirbnbClone" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A0F1C4AE2D77B045000BF15B /* AirbnbClone */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		A0F1C4B12D77B045000BF15B /* AirbnbClone */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F9B075DD2D9B576800D1FE53 /* Exceptions for "AirbnbClone" folder in "AirbnbClone" target */,
+			);
 			path = AirbnbClone;
 			sourceTree = "<group>";
 		};
@@ -248,10 +261,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AirbnbClone/Preview Content\"";
-				DEVELOPMENT_TEAM = FS79XXUJN7;
+				DEVELOPMENT_TEAM = 732SYZQDW7;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AirbnbClone/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -287,10 +301,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AirbnbClone/Preview Content\"";
-				DEVELOPMENT_TEAM = FS79XXUJN7;
+				DEVELOPMENT_TEAM = 732SYZQDW7;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AirbnbClone/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

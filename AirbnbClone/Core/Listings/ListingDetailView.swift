@@ -177,6 +177,7 @@ struct ListingDetailView: View {
                 
             
         }
+        .toolbar(.hidden, for:.tabBar)
         .ignoresSafeArea()
         .navigationBarHidden(true) 
         .padding(.bottom, 64)

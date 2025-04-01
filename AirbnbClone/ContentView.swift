@@ -8,17 +8,26 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var scanData: ScanData
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        MainTabView()
+            .onOpenURL { url in
+                handleURL(url)
+            }
+    }
+
+    func handleURL(_ url: URL) {
+        // For URLs like airbnbclone://scan/123
+        if url.host == "scan" || url.pathComponents.count > 1 {
+            let scanned = url.pathComponents.dropFirst().joined(separator: "/")
+            scanData.scannedText = scanned
         }
-        .padding()
     }
 }
 
+
 #Preview {
     ContentView()
+        .environmentObject(ScanData())
 }
